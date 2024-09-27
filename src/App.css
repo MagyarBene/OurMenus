@@ -1,0 +1,55 @@
+body{
+  background-color: rgb(68, 66, 66) !important;
+}
+.container{
+  min-height: 100vh;
+  padding: 0!important;
+  background-image: url("plant-background.jpg");
+  border: rgb(68, 66, 66) 5px solid;
+  border-radius: 10px;
+  color: rgb(221, 162, 11);
+  
+}
+.sticky{
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  background-color: rgb(221, 162, 11);
+  color: rgb(68, 66, 66);
+  border: black 5px solid;
+  border-radius: 10px;
+}
+.categ{
+  cursor: pointer;
+}
+.img-thumbnail{
+  aspect-ratio: 16/9;
+  object-fit: cover;
+}
+.menus{
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.card{
+  background-color: rgb(68, 66, 66) !important;
+  border: rgb(221, 162, 11) 3px solid !important;
+  max-width: 30rem;
+  color:  rgb(221, 162, 11) !important ;
+  text-align: justify;
+  font-size: 1rem;
+}
+.bold{
+  font-weight: bold;
+  font-size: medium;
+}
+.title{
+  text-transform: uppercase;
+  -webkit-text-stroke: 1px white;
+}
+.h{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
